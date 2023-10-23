@@ -1,0 +1,4 @@
+chmod -R go+r-w *
+rsync -vrL \
+      --exclude=.DS_Store \
+      ~/Documents/site chilaire@ssh.labri.fr:site/
